@@ -1,0 +1,1212 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  left: 70px;
+}
+
+.navbar__s1 {
+  width: 100px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+  color: #002B11;
+}
+
+.navbar__s1 h2 {
+  position: absolute;
+  left: 85px;
+}
+
+.navbar__s1 img {
+  width: 100%;
+}
+
+.navbar__s2 {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: #002B11;
+}
+
+.navbar__s2 ul {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+}
+
+.navbar__s2 li {
+  padding: 10px;
+  border-radius: 30px;
+}
+
+.navbar__s2 li:hover {
+  background-color: lightgray;
+  transition: 0.5s;
+}
+
+.navbar__s3 {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 30px;
+  padding: 10px;
+  color: #002B11;
+}
+
+.navbar_s3_line {
+  color: lightgray;
+}
+
+.navbar__s3:hover {
+  background-color: lightgray;
+  transition: 0.5s;
+}
+
+.navbar__s4 {
+  display: flex;
+  align-items: center;
+  color: #002B11;
+}
+
+.navbar__s4 button {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 20px;
+  position: absolute;
+  right: 310px;
+  border: none;
+}
+
+.navbar__s4 button:hover {
+  color: lightgray;
+  transition: 0.5s;
+}
+
+
+
+.search__title {
+  display: flex;
+  justify-content: center;
+  color: #002B11;
+}
+
+.search__title h1 {
+  font-size: 50px;
+}
+
+.search__desc {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: 20px;
+  color: #002B11;
+}
+
+.search__desc i {
+  margin-left: 30px;
+}
+
+.search__desc p {
+  margin-left: 3px;
+}
+
+.search__desc p:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 10px;
+}
+
+.search_desc_1 {
+  text-decoration: underline;
+  text-underline-offset: 10px;
+}
+
+.search__input {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.search_input_desc {
+  border: none;
+  padding: 10px;
+  border-radius: 30px;
+  width: 47%;
+  display: flex;
+  justify-content: space-around;
+  height: 35px;
+  align-items: center;
+  gap: 10px;
+  background-color: #F7F7F7;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.search_input_desc input {
+  border: none;
+  font-size: 16px;
+  width: 100%;
+  background-color: #F7F7F7;
+}
+
+.search_input_desc input:focus {
+  outline: none;
+}
+
+.search_input_desc button {
+  background-color: #00EB5B;
+  padding: 15px;
+  width: fit-content;
+  height: fit-content;
+  border: solid green 0.2px;
+  border-radius: 30px;
+}
+
+.image-intro {
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+}
+
+.image-intro__first {
+  flex-basis: 75%;
+  position: relative;
+}
+
+.image-intro_first_main {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.image-intro_first_small {
+  position: absolute;
+  width: 100px;
+  right: 30px;
+  top: 20px;
+}
+
+.image-intro_first_title {
+  position: absolute;
+  bottom: 190px;
+  color: white;
+  left: 20px;
+}
+
+.image-intro_first_desc {
+  position: absolute;
+  bottom: 170px;
+  color: white;
+  left: 20px;
+}
+
+.image-intro_first_button {
+  position: relative;
+  bottom: 100px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 30px;
+  left: 20px;
+}
+
+.image-intro_first_button:hover {
+  background-color: lightgray;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.food-section {
+  justify-content: center;
+  position: relative;
+  top: 80px;
+  left: 40px;
+}
+
+.food-section__title {
+  position: absolute;
+  left: 150px;
+  bottom: 280px;
+  color: #002B11;
+}
+
+.food-section__container {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  position: relative;
+  top: 20px;
+}
+
+.food-section__1,
+.food-section__2,
+.food-section__3,
+.food-section__4 {
+  flex-basis: 18%;
+  position: relative;
+}
+
+.food-section__1 img,
+.food-section__2 img,
+.food-section__3 img,
+.food-section__4 img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.food-section__1 h2,
+.food-section__2 h2,
+.food-section__3 h2,
+.food-section__4 h2 {
+  position: absolute;
+  left: 15px;
+  bottom: 20px;
+  color: white;
+  text-shadow: 0 3px 6px rgba(8, 0, 5, 1);
+
+}
+
+.food-section__1 h2:hover,
+.food-section__2 h2:hover,
+.food-section__3 h2:hover,
+.food-section__4 h2:hover{
+  cursor: pointer;
+}
+
+.food-section__1 img:hover,
+.food-section__2 img:hover,
+.food-section__3 img:hover,
+.food-section__4 img:hover {
+  cursor: pointer;
+  opacity: 0.8;
+  transition: 0.2s;
+}
+
+.food-section__arrow {
+  position: relative;
+  width: 50px;
+}
+
+.food-section__arrow img {
+  position: absolute;
+  width: 100%;
+  top: 40%;
+  right: 50px;
+  background-color: white;
+  border-radius: 100%;
+}
+
+.food-section__arrow img:hover {
+  background-color: lightgrey;
+  cursor: pointer;
+}
+
+
+.explore-coimbatore__title {
+  position: relative;
+  left: 180px;
+  color: #002B11;
+}
+
+.explore-coimbatore__image {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  position: relative;
+  left: 20px;
+}
+
+.explore-coimbatore__image h4,
+.explore-coimbatore__image p{
+  color: #002B11;
+}
+
+
+.explore-coimbatore__image1,
+.explore-coimbatore__image2,
+.explore-coimbatore__image3,
+.explore-coimbatore__image4 {
+  flex-basis: 18%;
+  margin-top: 20px;
+  position: relative;
+}
+
+.explore-coimbatore__image1 img,
+.explore-coimbatore__image2 img,
+.explore-coimbatore__image3 img,
+.explore-coimbatore__image4 img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.explore-coimbatore__image:hover{
+  cursor: pointer;
+}
+
+.explore-coimbatore__heart {
+  position: relative;
+  width: 30px;
+}
+
+.explore-coimbatore_heart_1 {
+  position: absolute;
+  right: 70px;
+  top: 10%;
+  width: 100%;
+  background-color: white;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.explore-coimbatore_heart_2 {
+  position: absolute;
+  right: 360px;
+  top: 10%;
+  width: 100%;
+  background-color: white;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.explore-coimbatore_heart_3 {
+  position: absolute;
+  right: 660px;
+  top: 10%;
+  width: 100%;
+  background-color: white;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.explore-coimbatore_heart_4 {
+  position: absolute;
+  right: 970px;
+  top: 10%;
+  width: 100%;
+  background-color: white;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.explore-coimbatore__image img:hover {
+  opacity: 0.8;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+
+
+.thing-to-do{
+  margin-top: 70px;
+
+}
+
+.thing-to-do__images {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  position: relative;
+  left: 60px;
+}
+
+.thing-to-do__title {
+  position: relative;
+  left: 180px;
+  color: #002B11;
+}
+
+.thing-to-do__images h4,
+.thing-to-do__images p,
+.thing-to-do__images h5{
+  color: #002B11;
+}
+
+.thing-to-do__images1,
+.thing-to-do__images2,
+.thing-to-do__images3,
+.thing-to-do__images4 {
+  flex-basis: 18%;
+  margin-top: 20px;
+  position: relative;
+}
+
+.thing-to-do__images1 img,
+.thing-to-do__images2 img,
+.thing-to-do__images3 img,
+.thing-to-do__images4 img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.thing-to-do__images4 img {
+  height: 220px;
+}
+
+
+
+.thing-to-do__heart {
+  position: relative;
+  width: 30px;
+}
+
+.thing-to-do_heart_image1 {
+  position: absolute;
+  right: 70px;
+  top: 10%;
+  width: 100%;
+  background-color: white;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.thing-to-do_heart_image2 {
+  position: absolute;
+  right: 360px;
+  top: 10%;
+  width: 100%;
+  background-color: white;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.thing-to-do_heart_image3 {
+  position: absolute;
+  right: 660px;
+  top: 10%;
+  width: 100%;
+  background-color: white;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.thing-to-do_heart_image4 {
+  position: absolute;
+  right: 970px;
+  top: 10%;
+  width: 100%;
+  background-color: white;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+
+.thing-to-do__images img:hover{
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.thing-to-do__images button{
+  padding: 5px;
+  background-color: #F7F7F7;
+  border: none;
+  border-radius: 5px;
+  color: #002B11;
+}
+
+.thing-to-do__images button:hover{
+  background-color: lightgray;
+  cursor: pointer;
+}
+
+.thing-to-do__images:hover{
+  cursor: pointer;
+}
+
+
+.thing-to-do_images_arrow {
+  position: relative;
+  width: 50px;
+}
+
+.thing-to-do_images_arrow img {
+  position: absolute;
+  width: 100%;
+  top: 25%;
+  right: 100px;
+  background-color: white;
+  border-radius: 100%;
+}
+
+.thing-to-do_images_arrow img:hover {
+  background-color: lightgray;
+  cursor: pointer;
+} 
+
+
+
+
+.next-trip{
+  margin-top: 90px;
+
+}
+
+.next-trip__title {
+  position: relative;
+  left: 180px;
+  color: #002B11;
+}
+
+.next-trip__images {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  position: relative;
+  left: 60px;
+}
+
+
+.next-trip_images_img1,
+.next-trip_images_img2,
+.next-trip_images_img3,
+.next-trip_images_img4 {
+  flex-basis: 19%;
+  margin-top: 20px;
+  position: relative;
+  height: 250px;
+}
+
+.next-trip_images_img1 img,
+.next-trip_images_img2 img,
+.next-trip_images_img3 img,
+.next-trip_images_img4 img {
+  width: 100%;
+  border-radius: 10px;
+  height: 100%;
+}
+
+
+
+.next-trip__images img:hover{
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.next-trip__images h3:hover{
+  cursor: pointer;
+}
+
+
+.next-trip_images_arrow {
+  position: relative;
+  width: 50px;
+}
+
+.next-trip_images_arrow img {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  right: 50px;
+  background-color: white;
+  border-radius: 100%;
+}
+
+.next-trip_images_arrow img:hover {
+  background-color: lightgrey;
+  cursor: pointer;
+} 
+
+.next-trip__images h3{
+  position: absolute;
+  bottom: 20px;
+  left: 10px;
+  color: white;
+  text-shadow: 0 3px 6px rgba(8, 0, 5, 1);
+}
+
+
+.iconic-place{
+  margin-top: 90px;
+}
+
+
+.iconic-place__title {
+  position: relative;
+  left: 180px;
+  color: #002B11;
+}
+
+.iconic-place__images {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  position: relative;
+  left: 60px;
+}
+
+
+.iconic-place_images_img1,
+.iconic-place_images_img2,
+.iconic-place_images_img3,
+.iconic-place_images_img4 {
+  flex-basis: 19%;
+  margin-top: 20px;
+  position: relative;
+  height: 250px;
+}
+
+.iconic-place_images_img1 img,
+.iconic-place_images_img2 img,
+.iconic-place_images_img3 img,
+.iconic-place_images_img4 img {
+  width: 100%;
+  border-radius: 10px;
+  height: 100%;
+}
+
+
+
+.iconic-place__images img:hover{
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+
+
+.iconic-place_images_arrow:hover{
+  cursor: pointer;
+}
+
+
+.iconic-place_images_arrow {
+  position: relative;
+  width: 50px;
+}
+
+.iconic-place_images_arrow img {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  right: 50px;
+  background-color: white;
+  border-radius: 100%;
+}
+
+.iconic-place_images_arrow img:hover {
+  background-color: lightgrey;
+  cursor: pointer;
+} 
+
+.iconic-place__images h2:hover{
+  cursor: pointer;
+}
+
+.iconic-place__images h2{
+  position: absolute;
+  bottom: 20px;
+  left: 10px;
+  color: white;
+  text-shadow: 0 3px 6px rgba(8, 0, 5, 1);
+}
+
+
+.scooter-image{
+  margin-top: 90px;
+  background-color: #F7F7F7;
+  width: 80%;
+  margin-left: 10%;
+  display: flex;
+  gap: 200px;
+}
+
+.scooter-image__img{
+  width: 40%;
+  padding: 30px;
+}
+
+.scooter-image__img img{
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.scooter-image__logo{
+  width: 50px;
+}
+
+.scooter-image__logo img{
+  width: 100%;
+}
+
+
+
+.scooter-image__desc{
+  display: flex;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.scooter-image__desc a{
+  color: #002B11;
+}
+
+.scooter-image__desc2{
+  width: 400px;
+  color: #002B11;
+  position: relative;
+}
+
+.scooter-image__desc2 h2{
+  position: relative;
+  left: 20px;
+}
+
+.scooter-image__desc2 button{
+  background-color: #002B11;
+  color: white;
+  padding: 15px;
+  border-radius: 40px;
+  border: none;
+  position: absolute;
+  right: 220px;
+  top: 100px;
+}
+
+
+.browsed-theme{
+  margin-top: 90px;
+}
+
+
+.browsed-theme__title {
+  position: relative;
+  left: 180px;
+  color: #002B11;
+}
+
+.browsed-theme__images {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  position: relative;
+  left: 60px;
+}
+
+
+.browsed-theme_images_img1,
+.browsed-theme_images_img2,
+.browsed-theme_images_img3,
+.browsed-theme_images_img4 {
+  flex-basis: 19%;
+  margin-top: 20px;
+  position: relative;
+  height: 350px;
+}
+
+.browsed-theme_images_img1 img,
+.browsed-theme_images_img2 img,
+.browsed-theme_images_img3 img,
+.browsed-theme_images_img4 img {
+  width: 100%;
+  border-radius: 10px;
+  height: 100%;
+}
+
+
+
+.browsed-theme__images img:hover{
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+
+
+.browsed-theme_images_arrow:hover{
+  cursor: pointer;
+}
+
+
+.browsed-theme_images_arrow {
+  position: relative;
+  width: 50px;
+}
+
+.browsed-theme_images_arrow img {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  right: 50px;
+  background-color: white;
+  border-radius: 100%;
+}
+
+
+
+.browsed-theme__images h3:hover,
+.browsed-theme__images p:hover{
+  cursor: pointer;
+}
+
+.browsed-theme__images h3{
+  position: absolute;
+  bottom: 20px;
+  left: 10px;
+  color: white;
+  text-shadow: 0 3px 6px rgba(8, 0, 5, 1);
+}
+
+
+/* footer */
+
+.footer {
+  background-color: #f7f7f7;
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 90px;
+  padding-top: 20px;
+}
+
+.footer p{
+  padding-top: 10px;
+}
+
+.rights{
+  background-color: #F7F7F7;
+  width: 100%;
+  display: flex;
+  padding-top: 50px;
+  justify-content: start;
+}
+
+.rights img{
+  width: 50px;
+  height: 50px;
+  padding-left: 80px;
+}
+
+.rights p{
+  padding-top: 15px;
+  font-size: 10px;
+}
+
+
+
+
+
+/* ========== Mobile Responsive Design ========== */
+@media screen and (max-width: 768px) {
+
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    gap: 15px;
+    left: 0;
+  }
+
+  .navbar__s1 h2 {
+    position: static;
+    margin-left: 10px;
+  }
+
+  .navbar__s4 button {
+    position: static;
+    margin-top: 10px;
+  }
+
+  .navbar__s2 ul {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .search__desc {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .search__input {
+    width: 90%;
+    margin: 30px auto 0;
+  }
+
+  .search_input_desc {
+    width: 100%;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+    height: auto;
+  }
+
+  .search_input_desc input {
+    width: 100%;
+  }
+
+  .image-intro_first_small {
+    width: 60px;
+    right: 10px;
+    top: 10px;
+  }
+
+  .image-intro_first_title,
+  .image-intro_first_desc,
+  .image-intro_first_button {
+    font-size: 16px;
+    left: 10px;
+    bottom: auto;
+  }
+
+  .image-intro_first_button {
+    margin-top: 10px;
+  }
+
+  .food-section__container,
+  .explore-coimbatore__image,
+  .thing-to-do__images,
+  .next-trip__images,
+  .iconic-place__images,
+  .browsed-theme__images {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .food-section,
+  .explore-coimbatore__title,
+  .thing-to-do__title,
+  .next-trip__title,
+  .iconic-place__title,
+  .browsed-theme__title {
+    left: 0;
+    text-align: center;
+  }
+
+  .scooter-image {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .scooter-image__img,
+  .scooter-image__desc2 {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .food-section__arrow,
+  .thing-to-do_images_arrow,
+  .next-trip_images_arrow,
+  .iconic-place_images_arrow,
+  .browsed-theme_images_arrow {
+    display: none;
+  }
+
+  .explore-coimbatore__heart,
+  .thing-to-do__heart {
+    display: none;
+  }
+
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer > div {
+    margin-bottom: 20px;
+  }
+
+  .rights {
+    flex-direction: column;
+    text-align: center;
+  }
+
+}
+
+
+
+   
+/* ========== Mobile Responsive Design ========== */
+@media screen and (max-width: 768px) {
+
+  /* Navbar */
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 10px 20px;
+    left: 0;
+  }
+
+  .navbar__s1 h2 {
+    position: static;
+    margin-left: 8px;
+    font-size: 20px;
+  }
+
+  .navbar__s2 ul {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .navbar__s4 button {
+    position: static;
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  /* Search Section */
+  .search__title h1 {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .search__desc {
+    flex-wrap: wrap;
+    gap: 10px;
+    text-align: center;
+  }
+
+  .search__input {
+    width: 100%;
+    margin: 20px auto;
+    padding: 0 10px;
+  }
+
+  .search_input_desc {
+    width: 100%;
+    flex-direction: column;
+    align-items: stretch;
+    height: auto;
+    gap: 10px;
+  }
+
+  .search_input_desc input {
+    width: 100%;
+    padding: 12px;
+  }
+
+  .search_input_desc button {
+    width: 100%;
+    padding: 12px;
+  }
+
+  /* Image intro */
+  .image-intro_first_small {
+    width: 60px;
+    right: 10px;
+    top: 10px;
+  }
+
+  .image-intro_first_title,
+  .image-intro_first_desc,
+  .image-intro_first_button {
+    left: 10px;
+    font-size: 14px;
+    bottom: auto;
+  }
+
+  .image-intro_first_button {
+    margin-top: 5px;
+  }
+
+  /* Grid-like sections stack */
+  .food-section__container,
+  .explore-coimbatore__image,
+  .thing-to-do__images,
+  .next-trip__images,
+  .iconic-place__images,
+  .browsed-theme__images {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    left: 0;
+  }
+
+  .food-section__title,
+  .explore-coimbatore__title,
+  .thing-to-do__title,
+  .next-trip__title,
+  .iconic-place__title,
+  .browsed-theme__title {
+    position: static;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  /* Remove arrows & floating hearts on mobile */
+  .food-section__arrow,
+  .thing-to-do_images_arrow,
+  .next-trip_images_arrow,
+  .iconic-place_images_arrow,
+  .browsed-theme_images_arrow,
+  .explore-coimbatore__heart,
+  .thing-to-do__heart {
+    display: none;
+  }
+
+  /* Scooter section */
+  .scooter-image {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-left: 0;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .scooter-image__img,
+  .scooter-image__desc2 {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .scooter-image__desc2 h2 {
+    left: 0;
+    text-align: center;
+  }
+
+  .scooter-image__desc2 button {
+    position: static;
+    margin: 15px auto 0;
+    display: block;
+  }
+
+  /* Footer */
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .footer > div {
+    margin-bottom: 20px;
+  }
+
+  .rights {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .rights img {
+    padding-left: 0;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .search__title h1 {
+    font-size: 26px;
+  }
+  .navbar__s1 h2 {
+    font-size: 18px;
+  }
+}
